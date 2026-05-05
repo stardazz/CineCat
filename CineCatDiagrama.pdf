@@ -1,0 +1,891 @@
+%PDF-1.4
+%‚„œ”
+
+1 0 obj
+   << 
+      /Title ()
+      /Author ()
+      /Subject ()
+      /Keywords ()
+      /Creator (FreeHEP Graphics2D Driver)
+      /Producer (com.horstmann.violet.framework.util.PDFGraphics2DStringWriter Revision)
+      /CreationDate (D:20260505111616-03'00')
+      /ModDate (D:20260505111616-03'00')
+      /Trapped /False
+   >>
+endobj
+
+2 0 obj
+   << 
+      /Type /Catalog
+      /Pages 3 0 R
+      /Outlines 4 0 R
+      /PageMode /UseOutlines
+      /ViewerPreferences 5 0 R
+      /OpenAction [6 0 R /Fit]
+   >>
+endobj
+
+5 0 obj
+   << 
+      /FitWindow true
+      /CenterWindow false
+   >>
+endobj
+
+6 0 obj
+   << 
+      /Parent 3 0 R
+      /Type /Page
+      /Contents 7 0 R
+   >>
+endobj
+
+7 0 obj
+   << 
+      /Length 8 0 R
+   >>
+stream
+.93443 0.0000 0.0000 -.93443 45.902 590.00 cm
+q
+0.0000 0.0000 m
+1400.0 0.0000 l
+1400.0 610.00 l
+0.0000 610.00 l
+h
+W
+n
+q
+/Alpha1 gs
+0.0000 0.0000 0.0000 rg
+0.0000 0.0000 0.0000 RG
+1.0000 0.0000 0.0000 1.0000 0.0000 0.0000 cm
+Q
+q
+1.0000 0.0000 0.0000 1.0000 0.0000 0.0000 cm
+0.0000 0.0000 m
+0.0000 610.00 l
+1400.0 610.00 l
+1400.0 0.0000 l
+h
+W
+n
+1.0000 0.0000 0.0000 1.0000 -80.000 -180.00 cm
+/Alpha1 gs
+1.0000 1.0000 1.0000 rg
+1.0000 1.0000 1.0000 RG
+80.000 180.00 m
+1481.0 180.00 l
+1481.0 791.00 l
+80.000 791.00 l
+80.000 180.00 l
+h
+f
+/Alpha1 gs
+0.0000 0.0000 0.0000 rg
+0.0000 0.0000 0.0000 RG
+1.0000 0.0000 0.0000 1.0000 0.0000 0.0000 cm
+/Alpha1 gs
+1.0000 1.0000 1.0000 rg
+1.0000 1.0000 1.0000 RG
+1240.0 530.00 m
+1480.0 530.00 l
+1480.0 750.00 l
+1240.0 750.00 l
+1240.0 530.00 l
+h
+f
+/Alpha1 gs
+.74902 .74902 .74902 rg
+.74902 .74902 .74902 RG
+1240.0 530.00 m
+1480.0 530.00 l
+1480.0 750.00 l
+1240.0 750.00 l
+1240.0 530.00 l
+h
+S
+1240.5 570.50 m
+1480.5 570.50 l
+S
+1240.5 630.50 m
+1480.5 630.50 l
+S
+/Alpha1 gs
+.20000 .20000 .20000 rg
+.20000 .20000 .20000 RG
+1.0000 0.0000 0.0000 1.0000 1240.0 530.00 cm
+q
+1.0000 0.0000 0.0000 -1.0000 115.00 25.000 cm
+BT
+0.0000 0.0000 Td
+/F1 12.000 Tf
+(Sala) Tj
+ET
+Q
+1.0000 0.0000 0.0000 1.0000 -1240.0 -530.00 cm
+1.0000 0.0000 0.0000 1.0000 1240.0 570.00 cm
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 27.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(numero: int) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 43.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(capacidade: int) Tj
+ET
+Q
+1.0000 0.0000 0.0000 1.0000 -1240.0 -570.00 cm
+1.0000 0.0000 0.0000 1.0000 1240.0 630.00 cm
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 25.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+( + __construct\(numero: int, capacidade: int\)) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 41.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ getNumero\(\): int) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 57.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ setNumero\(numero: int\): void) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 73.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ getCapacidade\(\): int) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 89.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ setCapacidade\(capacidade: int\): void) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 105.00 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ exibirSala\(\): void) Tj
+ET
+Q
+1.0000 0.0000 0.0000 1.0000 -1240.0 -630.00 cm
+1.0000 0.0000 0.0000 1.0000 -0.0000 -0.0000 cm
+/Alpha1 gs
+0.0000 0.0000 0.0000 rg
+0.0000 0.0000 0.0000 RG
+1.0000 0.0000 0.0000 1.0000 0.0000 0.0000 cm
+/Alpha1 gs
+1.0000 1.0000 1.0000 rg
+1.0000 1.0000 1.0000 RG
+560.00 510.00 m
+820.00 510.00 l
+820.00 790.00 l
+560.00 790.00 l
+560.00 510.00 l
+h
+f
+/Alpha1 gs
+.74902 .74902 .74902 rg
+.74902 .74902 .74902 RG
+560.00 510.00 m
+820.00 510.00 l
+820.00 790.00 l
+560.00 790.00 l
+560.00 510.00 l
+h
+S
+560.50 550.50 m
+820.50 550.50 l
+S
+560.50 650.50 m
+820.50 650.50 l
+S
+/Alpha1 gs
+.20000 .20000 .20000 rg
+.20000 .20000 .20000 RG
+1.0000 0.0000 0.0000 1.0000 560.00 510.00 cm
+q
+1.0000 0.0000 0.0000 -1.0000 116.00 25.000 cm
+BT
+0.0000 0.0000 Td
+/F1 12.000 Tf
+(Sessao) Tj
+ET
+Q
+1.0000 0.0000 0.0000 1.0000 -560.00 -510.00 cm
+1.0000 0.0000 0.0000 1.0000 560.00 550.00 cm
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 31.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(horario: string) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 47.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(preco: float) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 63.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(filme: Filme) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 79.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(sala: sala) Tj
+ET
+Q
+1.0000 0.0000 0.0000 1.0000 -560.00 -550.00 cm
+1.0000 0.0000 0.0000 1.0000 560.00 650.00 cm
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 27.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ getTitulo\(\): string) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 43.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ setTitulo\(titulo: string\): void) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 59.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ getDuracao\(\): int) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 75.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ setDuracao\(duracao: int\): void) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 91.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ getClassificacao\(\): string) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 107.00 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ setClassificacao\(classificacao: string\): void) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 123.00 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ exibirDetalhes\(\): void) Tj
+ET
+Q
+1.0000 0.0000 0.0000 1.0000 -560.00 -650.00 cm
+1.0000 0.0000 0.0000 1.0000 -0.0000 -0.0000 cm
+/Alpha1 gs
+0.0000 0.0000 0.0000 rg
+0.0000 0.0000 0.0000 RG
+1.0000 0.0000 0.0000 1.0000 0.0000 0.0000 cm
+/Alpha1 gs
+1.0000 1.0000 1.0000 rg
+1.0000 1.0000 1.0000 RG
+80.000 480.00 m
+420.00 480.00 l
+420.00 760.00 l
+80.000 760.00 l
+80.000 480.00 l
+h
+f
+/Alpha1 gs
+.74902 .74902 .74902 rg
+.74902 .74902 .74902 RG
+80.000 480.00 m
+420.00 480.00 l
+420.00 760.00 l
+80.000 760.00 l
+80.000 480.00 l
+h
+S
+80.500 520.50 m
+420.50 520.50 l
+S
+80.500 600.50 m
+420.50 600.50 l
+S
+/Alpha1 gs
+.20000 .20000 .20000 rg
+.20000 .20000 .20000 RG
+1.0000 0.0000 0.0000 1.0000 80.000 480.00 cm
+q
+1.0000 0.0000 0.0000 -1.0000 163.00 25.000 cm
+BT
+0.0000 0.0000 Td
+/F1 12.000 Tf
+(Filme) Tj
+ET
+Q
+1.0000 0.0000 0.0000 1.0000 -80.000 -480.00 cm
+1.0000 0.0000 0.0000 1.0000 80.000 520.00 cm
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 29.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(titulo: string) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 45.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(duracao: int) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 61.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(classificacao: string) Tj
+ET
+Q
+1.0000 0.0000 0.0000 1.0000 -80.000 -520.00 cm
+1.0000 0.0000 0.0000 1.0000 80.000 600.00 cm
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 29.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ __construct\(titulo: string, duracao: int, classificacao: string\)) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 45.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ getTitulo\(\): string) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 61.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ setTitulo\(titulo: string\): void) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 77.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ getDuracao\(\): int) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 93.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ setDuracao\(duracao: int\): void) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 109.00 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ getClassificacao\(\): string) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 125.00 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ setClassificacao\(classificacao: string\): void) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 141.00 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ exibirDetalhes\(\): void) Tj
+ET
+Q
+1.0000 0.0000 0.0000 1.0000 -80.000 -600.00 cm
+1.0000 0.0000 0.0000 1.0000 -0.0000 -0.0000 cm
+/Alpha1 gs
+0.0000 0.0000 0.0000 rg
+0.0000 0.0000 0.0000 RG
+1.0000 0.0000 0.0000 1.0000 0.0000 0.0000 cm
+/Alpha1 gs
+1.0000 1.0000 1.0000 rg
+1.0000 1.0000 1.0000 RG
+600.00 180.00 m
+820.00 180.00 l
+820.00 440.00 l
+600.00 440.00 l
+600.00 180.00 l
+h
+f
+/Alpha1 gs
+.74902 .74902 .74902 rg
+.74902 .74902 .74902 RG
+600.00 180.00 m
+820.00 180.00 l
+820.00 440.00 l
+600.00 440.00 l
+600.00 180.00 l
+h
+S
+600.50 220.50 m
+820.50 220.50 l
+S
+600.50 300.50 m
+820.50 300.50 l
+S
+/Alpha1 gs
+.20000 .20000 .20000 rg
+.20000 .20000 .20000 RG
+1.0000 0.0000 0.0000 1.0000 600.00 180.00 cm
+q
+1.0000 0.0000 0.0000 -1.0000 93.000 25.000 cm
+BT
+0.0000 0.0000 Td
+/F1 12.000 Tf
+(Ingresso) Tj
+ET
+Q
+1.0000 0.0000 0.0000 1.0000 -600.00 -180.00 cm
+1.0000 0.0000 0.0000 1.0000 600.00 220.00 cm
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 29.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(numero: int) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 45.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(tipo: string) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 61.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(sessao: Sessao) Tj
+ET
+Q
+1.0000 0.0000 0.0000 1.0000 -600.00 -220.00 cm
+1.0000 0.0000 0.0000 1.0000 600.00 300.00 cm
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 27.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ getNumero\(\): int     ) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 43.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ setNumero\(numero: int\): void) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 59.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ getTipo\(\): string      ) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 75.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ setTipo\(tipo: string\): void ) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 91.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ getSessao\(\): Sessao ) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 107.00 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ setSessao\(sessao: Sessao\): void) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 123.00 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ gerarIngresso\(\): void) Tj
+ET
+Q
+1.0000 0.0000 0.0000 1.0000 -600.00 -300.00 cm
+1.0000 0.0000 0.0000 1.0000 -0.0000 -0.0000 cm
+/Alpha1 gs
+0.0000 0.0000 0.0000 rg
+0.0000 0.0000 0.0000 RG
+1.0000 0.0000 0.0000 1.0000 0.0000 0.0000 cm
+/Alpha1 gs
+1.0000 1.0000 1.0000 rg
+1.0000 1.0000 1.0000 RG
+260.00 190.00 m
+520.00 190.00 l
+520.00 410.00 l
+260.00 410.00 l
+260.00 190.00 l
+h
+f
+/Alpha1 gs
+.74902 .74902 .74902 rg
+.74902 .74902 .74902 RG
+260.00 190.00 m
+520.00 190.00 l
+520.00 410.00 l
+260.00 410.00 l
+260.00 190.00 l
+h
+S
+260.50 230.50 m
+520.50 230.50 l
+S
+260.50 290.50 m
+520.50 290.50 l
+S
+/Alpha1 gs
+.20000 .20000 .20000 rg
+.20000 .20000 .20000 RG
+1.0000 0.0000 0.0000 1.0000 260.00 190.00 cm
+q
+1.0000 0.0000 0.0000 -1.0000 118.00 25.000 cm
+BT
+0.0000 0.0000 Td
+/F1 12.000 Tf
+(Cliente) Tj
+ET
+Q
+1.0000 0.0000 0.0000 1.0000 -260.00 -190.00 cm
+1.0000 0.0000 0.0000 1.0000 260.00 230.00 cm
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 27.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(nome: string) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 43.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(cpf: string) Tj
+ET
+Q
+1.0000 0.0000 0.0000 1.0000 -260.00 -230.00 cm
+1.0000 0.0000 0.0000 1.0000 260.00 290.00 cm
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 25.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+__construct\(nome: string, cpf: string\)) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 41.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ getNome\(\): string) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 57.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ setNome\(nome: string\): void) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 73.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ getCpf\(\): string) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 89.000 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ setCpf\(cpf: string\): void) Tj
+ET
+Q
+q
+1.0000 0.0000 0.0000 -1.0000 2.0000 105.00 cm
+BT
+0.0000 0.0000 Td
+/F2 12.000 Tf
+(+ comprarIngresso\(ingresso: Ingresso\): void) Tj
+ET
+Q
+1.0000 0.0000 0.0000 1.0000 -260.00 -290.00 cm
+1.0000 0.0000 0.0000 1.0000 -0.0000 -0.0000 cm
+/Alpha1 gs
+0.0000 0.0000 0.0000 rg
+0.0000 0.0000 0.0000 RG
+600.00 310.00 m
+520.00 310.00 l
+S
+S
+591.34 305.00 m
+600.00 310.00 l
+591.34 315.00 l
+600.00 310.00 l
+591.34 305.00 l
+h
+S
+560.00 650.00 m
+490.00 650.00 l
+490.00 620.00 l
+420.00 620.00 l
+S
+S
+551.34 645.00 m
+560.00 650.00 l
+551.34 655.00 l
+560.00 650.00 l
+551.34 645.00 l
+h
+S
+1240.0 640.00 m
+820.00 640.00 l
+S
+S
+1231.3 635.00 m
+1240.0 640.00 l
+1231.3 645.00 l
+1240.0 640.00 l
+1231.3 635.00 l
+h
+S
+690.00 510.00 m
+690.00 475.00 l
+710.00 475.00 l
+710.00 440.00 l
+S
+S
+690.00 510.00 m
+695.00 501.34 l
+690.00 492.68 l
+685.00 501.34 l
+h
+f
+690.00 510.00 m
+695.00 501.34 l
+690.00 492.68 l
+685.00 501.34 l
+h
+S
+Q
+Q
+
+endstream
+endobj
+
+8 0 obj
+   12325
+endobj
+
+9 0 obj
+   << 
+      /Type /Font
+      /Subtype /Type1
+      /Name /F1
+      /BaseFont /Helvetica-Bold
+      /Encoding 10 0 R
+   >>
+endobj
+
+11 0 obj
+   << 
+      /Type /Font
+      /Subtype /Type1
+      /Name /F2
+      /BaseFont /Helvetica
+      /Encoding 10 0 R
+   >>
+endobj
+
+10 0 obj
+   << 
+      /Type /Encoding
+      /Differences [0 /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /breve /caron /circumflex /dotaccent /hungarumlaut /ogonek /ring /tilde /space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quotesingle /parenleft /parenright /asterisk /plus /comma /hyphen /period /slash /zero /one /two /three /four /five /six /seven /eight /nine /colon /semicolon /less /equal /greater /question /at /A /B /C /D /E /F /G /H /I /J /K /L /M /N /O /P /Q /R /S /T /U /V /W /X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore /grave /a /b /c /d /e /f /g /h /i /j /k /l /m /n /o /p /q /r /s /t /u /v /w /x /y /z /braceleft /bar /braceright /asciitilde /.notdef /bullet /dagger /daggerdbl /ellipsis /emdash /endash /florin /fraction /guilsinglleft /guilsinglright /minus /perthousand /quotedblbase /quotedblleft /quotedblright /quoteleft /quoteright /quotesinglbase /trademark /fi /fl /Lslash /OE /Scaron /Ydieresis /Zcaron /dotlessi /lslash /oe /scaron /zcaron /.notdef /Euro /exclamdown /cent /sterling /currency /yen /brokenbar /section /dieresis /copyright /ordfeminine /guillemotleft /logicalnot /.notdef /registered /macron /degree /plusminus /twosuperior /threesuperior /acute /mu /paragraph /periodcentered /cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf /threequarters /questiondown /Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis /Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply /Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn /germandbls /agrave /aacute /acircumflex /atilde /adieresis /aring /ae /ccedilla /egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis /eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide /oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /ydieresis]
+   >>
+endobj
+
+3 0 obj
+   << 
+      /Parent null
+      /Type /Pages
+      /MediaBox [0.0000 0.0000 1400.0 610.00]
+      /Resources 12 0 R
+      /Kids [6 0 R]
+      /Count 1
+   >>
+endobj
+
+13 0 obj
+   [/PDF /Text /ImageC]
+endobj
+
+14 0 obj
+   << 
+      /F1 9 0 R
+      /F2 11 0 R
+   >>
+endobj
+
+15 0 obj
+   << 
+      /Alpha1
+      << 
+         /ca 1.0000
+         /CA 1.0000
+         /BM /Normal
+         /AIS false
+      >>
+   >>
+endobj
+
+12 0 obj
+   << 
+      /ProcSet 13 0 R
+      /Font 14 0 R
+      /ExtGState 15 0 R
+   >>
+endobj
+
+4 0 obj
+   << 
+      /Type /Outlines
+      /First 16 0 R
+      /Last 16 0 R
+   >>
+endobj
+
+16 0 obj
+   << 
+      /Parent 4 0 R
+      /Title (Page 1 \(untitled\))
+      /Prev null
+      /Next null
+      /Dest [6 0 R /Fit]
+   >>
+endobj
+
+xref
+0 17
+0000000000 65535 f
+0000000019 00000 n
+0000000373 00000 n
+0000015619 00000 n
+0000016176 00000 n
+0000000566 00000 n
+0000000650 00000 n
+0000000747 00000 n
+0000013146 00000 n
+0000013175 00000 n
+0000013471 00000 n
+0000013325 00000 n
+0000016073 00000 n
+0000015802 00000 n
+0000015847 00000 n
+0000015917 00000 n
+0000016274 00000 n
+
+trailer
+<< 
+   /Size 16
+   /Root 2 0 R
+   /Info 1 0 R
+>>
+
+startxref
+16428
+
+%%EOF
