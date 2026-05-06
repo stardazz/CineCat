@@ -7,9 +7,10 @@
         public function __construct($titulo, $duracao, $classificacao) {
             $this->titulo = $titulo;
             $this->duracao = $duracao;
+            $this->classificacao = $classificacao;
         }
 
         public function __toString() {
-            return $this->descricao;
+            return $this->titulo;
         }
     }

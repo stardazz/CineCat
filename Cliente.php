@@ -8,11 +8,24 @@
             $this->cpf = $cpf;
         }
 
-        public function comprarIngresso() {
-            echo "<p>" . $this->nome . " comprou um Ingresso."; 
+        public function getNome(){
+            return $this->nome;
         }
 
-        public function __toString() {
-            return $this->nome;
+        public function setNome($nome) {
+            $this->nome = $nome;
+        }
+
+        public function getCpf() {
+            return $this->cpf;
+        }
+
+        public function setCpf($cpf) {
+            $this->cpf = $cpf;
+        }
+
+
+        public function comprarIngresso($ingresso) {
+            echo "Cliente {$this->nome} comprou o ingresso #{$ingresso->getNumero()}\n";
         }
     }
