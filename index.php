@@ -1,23 +1,17 @@
 <?php
-    // Incluir os arquivos das classes
-        require "Cliente.php";
-        require "Filme.php";
-        require "Ingresso.php";
-        require "Sala.php";
-        require "Sessao.php";
+    require_once "Filme.php";
+    require_once "Sala.php";
+    require_once "Sessao.php";
+    require_once "Ingresso.php";
+    require_once "Cliente.php";
 
-    // Instanciar os objetos das classes
-    $meuCliente = new Cliente("Emanuel", 175.422.239-39);
-    $meuFilme = new Filme("As branquelas", "2hrs", "+10");
-    $meuIngresso = new Ingresso(38, "Meia", "19:00");
-    $minhaSala = new Sala(2, "100 pessoas");
-    $minhaSessao = new Sessao("19:00", 15.00, "As branquelas", 2);
+    $filme = new Filme("As branquelas", 180, "12 anos");
+    $sala = new Sala(5, 120);
+    $sessao = new Sessao("20:00", 35.50, $filme, $sala);
+    $ingresso = new Ingresso(101, "Inteira", $sessao);
+    $cliente = new Cliente("Amanda", "123.456.789-00");
 
-    // Instanciar um objeto da classe Venda
-    $minhaVenda = new Venda($meuProduto, $meuComprador, $meuVendedor);
-
-    // Concretizar uma venda
-    $minhaVenda->concretizarVenda();
-
-    // Cancelar uma venda
-    $minhaVenda->cancelarVenda();
+    $filme->exibirDetalhes();
+    $sala->exibirSala();
+    $sessao->exibirSessao();
+    $cliente->comprarIngresso($ingresso);

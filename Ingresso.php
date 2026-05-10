@@ -1,22 +1,48 @@
-<?php 
-    class Venda {
-        private $p; // Objeto da classe Produto (associação)
-        private $c; // Objeto da classe Comprador (associação)
-        private $v; // Objeto da classe Venda (associação)
+<?php
+    require_once "Sessao.php";
 
-        public function __construct($p, $c, $v) {
-            $this->p = $p;
-            $this->c = $c;
-            $this->v = $v;
+    class Ingresso {
+
+        private $numero;
+        private $tipo;
+        private $sessao;
+
+        public function __construct($numero, $tipo, $sessao) {
+            $this->numero = $numero;
+            $this->tipo = $tipo;
+            $this->sessao = $sessao;
         }
 
-        public function concretizarVenda() {
-            echo "<p>" . $this->p . " foi vendido.";
-            $this->v->vender();
-            $this->c->comprar();
+        public function getNumero() {
+            return $this->numero;
         }
 
-        public function cancelarVenda() {
-            echo "<p style='color: red'>Venda CANCELADA!!!";
+        public function setNumero($numero) {
+            $this->numero = $numero;
+        }
+
+        public function getTipo() {
+            return $this->tipo;
+        }
+
+        public function setTipo($tipo) {
+            $this->tipo = $tipo;
+        }
+
+        public function getSessao() {
+            return $this->sessao;
+        }
+
+        public function setSessao($sessao){
+            $this->sessao = $sessao;
+        }
+
+        public function gerarIngresso() {
+            echo "<h3>Ingresso</h3>";
+            echo "Número: {$this->numero}<br>";
+            echo "Tipo: {$this->tipo}<br>";
+            echo "Filme: " . $this->sessao->getFilme()->getTitulo() . "<br>";
+            echo "Sala: " . $this->sessao->getSala()->getNumero() . "<br>";
+            echo "Horário: " . $this->sessao->getHorario() . "<br><br>";
         }
     }

@@ -1,18 +1,50 @@
 <?php
-    class Comprador {
-        private $nome;
-        private $verba;
+    require_once "Filme.php";
+    require_once "Sala.php";
 
-        public function __construct($nome, $verba) {
-            $this->nome = $nome;
-            $this->verba = $verba;
+    class Sessao {
+
+        private $horario;
+        private $preco;
+        private $filme;
+        private $sala;
+
+        public function __construct($horario, $preco, $filme, $sala) {
+            $this->horario = $horario;
+            $this->preco = $preco;
+            $this->filme = $filme;
+            $this->sala = $sala;
         }
 
-        public function comprar() {
-            echo "<p>" . $this->nome . " realizou a compra."; 
+        public function getHorario() {
+            return $this->horario;
         }
 
-        public function __toString() {
-            return $this->nome;
+        public function setHorario($horario) {
+            $this->horario = $horario;
+        }
+
+        public function getPreco() {
+            return $this->preco;
+        }
+
+        public function setPreco($preco) {
+            $this->preco = $preco;
+        }
+
+        public function getFilme() {
+            return $this->filme;
+        }
+
+        public function getSala() {
+            return $this->sala;
+        }
+
+        public function exibirSessao() {
+            echo "<h3>Sessão</h3>";
+            echo "Horário: {$this->horario}<br>";
+            echo "Preço: R$ {$this->preco}<br>";
+            echo "Filme: " . $this->filme->getTitulo() . "<br>";
+            echo "Sala: " . $this->sala->getNumero() . "<br><br>";
         }
     }

@@ -1,5 +1,8 @@
 <?php
+    require_once "Ingresso.php";
+
     class Cliente {
+
         private $nome;
         private $cpf;
 
@@ -8,7 +11,7 @@
             $this->cpf = $cpf;
         }
 
-        public function getNome(){
+        public function getNome() {
             return $this->nome;
         }
 
@@ -24,8 +27,9 @@
             $this->cpf = $cpf;
         }
 
-
         public function comprarIngresso($ingresso) {
-            echo "Cliente {$this->nome} comprou o ingresso #{$ingresso->getNumero()}\n";
+            echo "<h2>Compra realizada com sucesso!</h2>";
+            echo "Cliente: {$this->nome}<br>";
+            $ingresso->gerarIngresso();
         }
     }
