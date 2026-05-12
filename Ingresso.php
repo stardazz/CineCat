@@ -41,6 +41,7 @@
             echo "<h3>Ingresso</h3>";
             echo "Número: {$this->numero}<br>";
             echo "Tipo: {$this->tipo}<br>";
+            echo "Preço: " . $this->sessao->getPreco() . "<br>";
             echo "Filme: " . $this->sessao->getFilme()->getTitulo() . "<br>";
             echo "Sala: " . $this->sessao->getSala()->getNumero() . "<br>";
             echo "Horário: " . $this->sessao->getHorario() . "<br><br>";

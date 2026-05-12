@@ -8,7 +8,7 @@
 
     <h2>Compra de Ingresso</h2>
 
-    <form action="processa.php" method="POST">
+    <form action="acao.php" method="POST">
 
         Nome:
         <input type="text" name="nome" required>

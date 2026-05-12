@@ -29,8 +29,12 @@
         }
 
         public function setPreco($preco) {
-            $this->preco = $preco;
+        if ($preco === 'Inteira') {
+            $this->valor = 30;
+        } else {
+            $this->valor = 15;
         }
+    }
 
         public function getFilme() {
             return $this->filme;
