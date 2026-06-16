@@ -15,4 +15,6 @@
     $sessao = new Sessao("19:30", 25.00, $filme, $sala);
     $ingresso = new Ingresso(rand(1, 999), $tipo, $sessao);
     $cliente = new Cliente($nome, $cpf);
+    $pagamento = new pagamentoPix();
+    $pagamento->realizarPagamento($sessao->getPreco());
     $cliente->comprarIngresso($ingresso);

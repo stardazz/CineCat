@@ -33,6 +33,13 @@
         </select>
         <br><br>
 
+         forma de Pagamento: 
+        <select name="tipoPagamento">
+            <option value="pix">pix</option>
+            <option value="Cartao">Cartao</option>
+        </select>
+        <br><br>
+
         <input type="submit" value="Comprar">
 
     </form>
