@@ -8,9 +8,9 @@
     $nome = $_POST['nome'];
     $cpf = $_POST['cpf'];
     $nomeFilme = $_POST['filme'];
-    $tipo = $_POST['tipo'];
+    $tipoIngresso = $_POST['tipo'];
 
-    if ($tipo == 'Inteira') {
+    if ($tipoIngresso == 'Inteira') {
         $preco = 30;
     }
     else {
@@ -20,7 +20,7 @@
     $filme = new Filme($nomeFilme, 120, "12 anos");
     $sala = new Sala(2, 80);
     $sessao = new Sessao("19:30", $preco, $filme, $sala);
-    $ingresso = new Ingresso(rand(1, 999), $tipo, $sessao);
+    $ingresso = new Ingresso(rand(1, 999), $tipoIngresso, $sessao);
     $cliente = new Cliente($nome, $cpf);
 
     $filme->exibirDetalhes();

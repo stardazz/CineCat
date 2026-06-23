@@ -13,8 +13,6 @@
     $filme = new Filme($nomeFilme, 120, "12 anos");
     $sala = new Sala(2, 80);
     $sessao = new Sessao("19:30", 25.00, $filme, $sala);
-    $ingresso = new Ingresso(rand(1, 999), $tipo, $sessao);
+    $ingresso = new Ingresso(rand(1, 999), $tipoIngresso, $sessao);
     $cliente = new Cliente($nome, $cpf);
-    $pagamento = new pagamentoPix();
-    $pagamento->realizarPagamento($sessao->getPreco());
     $cliente->comprarIngresso($ingresso);

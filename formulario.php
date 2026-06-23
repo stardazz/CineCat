@@ -8,7 +8,7 @@
 
     <h2>Compra de Ingresso</h2>
 
-    <form action="acao.php" method="POST">
+    <form action="index.php" method="POST">
 
         Nome:
         <input type="text" name="nome" required>
@@ -33,10 +33,17 @@
         </select>
         <br><br>
 
-         forma de Pagamento: 
+        Tipo do ingresso:
+        <select name="tipo">
+            <option value="Normal">Normal</option>
+            <option value="Vip">Vip</option>
+        </select>
+        <br><br>
+
+        Forma de Pagamento: 
         <select name="tipoPagamento">
-            <option value="pix">pix</option>
-            <option value="Cartao">Cartao</option>
+            <option value="pix">Pix</option>
+            <option value="Cartao">Cartão</option>
         </select>
         <br><br>
 

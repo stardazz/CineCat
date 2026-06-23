@@ -7,9 +7,9 @@
         private $tipo;
         private $sessao;
 
-        public function __construct($numero, $tipo, $sessao) {
+        public function __construct($numero, $tipoIngresso, $sessao) {
             $this->numero = $numero;
-            $this->tipo = $tipo;
+            $this->tipoIngresso = $tipoIngresso;
             $this->sessao = $sessao;
         }
 
@@ -21,12 +21,12 @@
             $this->numero = $numero;
         }
 
-        public function getTipo() {
-            return $this->tipo;
+        public function getTipoIngresso() {
+            return $this->tipoIngresso;
         }
 
-        public function setTipo($tipo) {
-            $this->tipo = $tipo;
+        public function setTipoIngresso($tipoIngresso) {
+            $this->tipoIngresso = $tipoIngresso;
         }
 
         public function getSessao() {
@@ -40,7 +40,7 @@
         public function gerarIngresso() {
             echo "<h3>Ingresso</h3>";
             echo "Número: {$this->numero}<br>";
-            echo "Tipo: {$this->tipo}<br>";
+            echo "Tipo: {$this->tipoIngresso}<br>";
             echo "Preço: " . $this->sessao->getPreco() . "<br>";
             echo "Filme: " . $this->sessao->getFilme()->getTitulo() . "<br>";
             echo "Sala: " . $this->sessao->getSala()->getNumero() . "<br>";
