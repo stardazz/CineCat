@@ -8,7 +8,7 @@
 
     <h2>Compra de Ingresso</h2>
 
-    <form action="index.php" method="POST">
+    <form action="Dados.php" method="POST">
 
         Nome:
         <input type="text" name="nome" required>
@@ -27,21 +27,23 @@
         <br><br>
 
         Tipo do ingresso:
-        <select name="tipo">
+        <select name="tipoIngresso">
             <option value="Inteira">Inteira</option>
             <option value="Meia">Meia</option>
+            <option value="Vip">VIP</option>
         </select>
         <br><br>
 
-        Tipo do ingresso:
-        <select name="tipo">
-            <option value="Normal">Normal</option>
-            <option value="Vip">Vip</option>
+        Brinde:
+        <select name="brinde">
+            <option value="Pipoca Grande">Pipoca Grande</option>
+            <option value="Refrigerante">Refrigerante</option>
+            <option value="Combo">Combo Pipoca + Refrigerante</option>
         </select>
         <br><br>
 
         Forma de Pagamento: 
-        <select name="tipoPagamento">
+        <select name="pagamento">
             <option value="pix">Pix</option>
             <option value="Cartao">Cartão</option>
         </select>

@@ -4,7 +4,7 @@
     class Ingresso {
 
         private $numero;
-        private $tipo;
+        private $tipoIngresso;
         private $sessao;
 
         public function __construct($numero, $tipoIngresso, $sessao) {
