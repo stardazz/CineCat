@@ -24,35 +24,26 @@
     $sessao = new Sessao("20:00", 30.00, $filme, $sala);
 
     // Verifica o tipo de ingresso
-    if ($tipoIngresso == "VIP") {
-
+    if ($tipoIngresso == "Vip") {
         $ingresso = new IngressoVIP(101, "VIP", $sessao, $brinde);
-
     } else {
-
         $ingresso = new Ingresso(101, $tipoIngresso, $sessao);
-
     }
 
     // Cria o cliente
     $cliente = new Cliente($nome, $cpf);
 
     // Verifica a forma de pagamento
-    if ($pagamento == "Pix") {
-
+    if ($pagamento == "pix") {
         $formaPagamento = new PagamentoPix();
-
     } else {
-
         $formaPagamento = new PagamentoCartao();
-
     }
 
 ?>
     <h2>Compra realizada com sucesso!</h2>
 
     <?php
-
     echo "<strong>Cliente:</strong> " . $cliente->getNome() . "<br>";
     echo "<strong>CPF:</strong> " . $cliente->getCpf() . "<br><br>";
 

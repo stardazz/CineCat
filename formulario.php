@@ -44,7 +44,7 @@
 
         Forma de Pagamento: 
         <select name="pagamento">
-            <option value="pix">Pix</option>
+            <option value="Pix">Pix</option>
             <option value="Cartao">Cartão</option>
         </select>
         <br><br>

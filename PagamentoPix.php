@@ -6,4 +6,4 @@
         echo "Pagamento Via Pix. ";
         echo "Valor R$: " . $valor;
     }
-    }
+}

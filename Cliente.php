@@ -2,7 +2,6 @@
     require_once "Ingresso.php";
 
     class Cliente {
-
         private $nome;
         private $cpf;
 

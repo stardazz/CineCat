@@ -23,5 +23,4 @@ class IngressoVip extends Ingresso{
         parent::gerarIngresso();
         echo "Brinde: " . $this->brinde . "<br>";
     }
-
 }
